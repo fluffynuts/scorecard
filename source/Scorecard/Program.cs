@@ -39,7 +39,7 @@ namespace Scorecard
             var pre = score.PackageName;
             while (pre.Length < padTo + 5)
                 pre += " ";
-            Console.WriteLine("{0} - {1}", pre, score.UsageCount);
+            Console.WriteLine("{0} :: {1}", pre, score.UsageCount);
         }
     }
 }
